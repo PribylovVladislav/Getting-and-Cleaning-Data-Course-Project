@@ -1,10 +1,9 @@
 The repository includes the following files:
 =========================================
 
-- 'README.txt'
-- 'merged_data.csv' - tidy dataset
-- 'average_data.csv' - same dataset as merged_data grouped by subject and activities
-- 'run_analysis.R' - scrypt for performing the analysis
+- 'README.md'
+- 'tidy_grouped_data.txt' - tidy dataset grouped by subject and activities
+- 'run_analysis_final.R' - scrypt for performing the analysis
 - 'code_book_smartphones.pdf' - code book
 
 =========================================
@@ -12,12 +11,11 @@ The repository includes the following files:
 Scrypt's description:
 =========================================
 
-1) Downloading and saving dataset
-2) Adding train column
-3) Calculating mean and standart deviation for each measurement by using function 'transformation'
-4) Calculating mean and standart deviation for each measurement in 'Inertial Signals' directory by using function 'transformation'
-4) Adding id column
-5) Merging datasets by id and train variables
-6) Creating dataset for averages grouping by subject and activity
+1) Downloading dataset
+2) Reading datasets
+3) Assigning data to features
+4) Merging them
+5) Renaming columns
+6) Grouping data by subject and activity
 
 =========================================
